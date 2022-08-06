@@ -801,6 +801,11 @@
     "consola" "^2.15.0"
     "node-fetch" "^2.6.1"
 
+"@serverless/typescript@^3.21.0":
+  "integrity" "sha512-SiGqgBbE1npu4wMCKsN+sF5pH3RIsQvjvtzhnr6ZYuDDX1r1I1lVR0uLk12v2vAIywVUmKym7Z3cKUTc7NIioA=="
+  "resolved" "https://registry.npmjs.org/@serverless/typescript/-/typescript-3.21.0.tgz"
+  "version" "3.21.0"
+
 "@sinclair/typebox@^0.24.1":
   "integrity" "sha512-kVaO5aEFZb33nPMTZBxiPEkY+slxiPtqC7QX8f9B3eGOMBvEfuMfxp9DSTTCsRJPumPKjrge4yagyssO4q6qzQ=="
   "resolved" "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.20.tgz"

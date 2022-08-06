@@ -1,6 +1,6 @@
 import type { AWS } from '@serverless/typescript';
 
-import bootstrap from './src/main';
+import {handler} from './src/main';
 
 const serverlessConfiguration: AWS = {
   service: 'serverless-ts',
@@ -19,7 +19,7 @@ const serverlessConfiguration: AWS = {
     },
   },
   // import the function via paths
-  functions: { bootstrap },
+  functions: { handler },
   package: { individually: true },
   custom: {
     esbuild: {
